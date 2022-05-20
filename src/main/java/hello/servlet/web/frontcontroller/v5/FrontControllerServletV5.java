@@ -37,6 +37,7 @@ public class FrontControllerServletV5 extends HttpServlet {
     private void initHandlerMappingMap() {
         //ctrl + d 바로 밑에 복사하기
         //ctrl shift alt 커서 -> 커서 동시에 여러개 집기
+        //커밋용
         handlerMappingMap.put("/front-controller/v5/v3/members/new-form", new MemberFormControllerV3());
         handlerMappingMap.put("/front-controller/v5/v3/members/save", new MemberSaveControllerV3());
         handlerMappingMap.put("/front-controller/v5/v3/members", new MemberListControllerV3());
